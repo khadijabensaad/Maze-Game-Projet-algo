@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Maze Game</string>
+    <string name="text1">
+        - The size of the maze will be variable depending on the difficulty level.\n
+        - The score can\'t be negative under any circumstances (0 is the lowest score).\n
+        - Every time the player reaches the exit, he gains 300 points, and if he takes the shortest path, he gets 200 points extra.\n
+        - For every word collected, the player gets additional points based on the length of the word. You can\'t collect the same word twice.\n
+        - You can\'t show the shortest path unless you have at least 200 points.\n
+        - If the player goes back to the same cell he was in the previous move, he gets -5 (not applicable if score=0).\n
+        - Depending on the difficulty level, there is a number of moves allowed for the player. If he surpasses it, he will get -10 for each move (not applicable if score=0).
+    </string>
+    <string name="text2">
+        - When the player reaches the exit, he wins and goes to the next round.
+    </string>
+    <string name="text3">
+        - If the time is over, the player will lose 300 points and go back to round 1.\n
+        - If the player reaches the exit without collecting at least 2 words, he will be penalized 100 points and will start again in the same round.
+    </string>
+    <string name="text4">
+        - Same rules as the medium level.\n
+        - If the player collides with an obstacle, his position will reset randomly.
+    </string>
+</resources>
